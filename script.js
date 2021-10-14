@@ -32,9 +32,15 @@ function soundEffect() {
   }
   
   
-
   lGit.onclick = () => {
     lGit.addEventListener('click', getGit);
+}
+
+function openWindowFunction() {
+  window.open("https://github.com/AsadAliH/Hide_And_Seek_Game");
+}
+gGit.onclick = () => {
+  gGit.addEventListener('click', openWindowFunction);
 }
 
 const RandomBadDoorGenerator = () => {
